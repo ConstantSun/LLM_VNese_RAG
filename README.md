@@ -4,7 +4,9 @@ RAG, langchain, claude,sbert
 # How to run:
 - Open all .py file and find all # TODO , follow TODO description to change the values.
 - Suppose you're running on EC2, make sure EC2 role has following permissions:
+
 Permission: AdminAccess
+
 Trust Relationship:
 ```
 {
