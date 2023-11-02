@@ -40,5 +40,5 @@ Trust Relationship:
   ```
 Then you'll see a website, looking like this: 
 <img width="1393" alt="image" src="https://github.com/ConstantSun/LLM_VNese_RAG/assets/26327367/30140910-9d42-4198-b176-19535e79ae6d">
-
+This website can be accessible to anyone if your EC2 has public IP address.
   
