@@ -66,7 +66,7 @@ def ask(query):
     # Call the assume_role method of the STSConnection object and pass the role
     # ARN and a role session name.
     assumed_role_object=sts_client.assume_role(
-        RoleArn="arn:aws:iam::628152409662:role/ec2-oregon-role",
+        RoleArn="arn:aws:iam::628152409662:role/ec2-oregon-role",  #  TODO: change this to your EC2 role
         RoleSessionName="AssumeRoleSession1"
     )
     credentials=assumed_role_object['Credentials']
